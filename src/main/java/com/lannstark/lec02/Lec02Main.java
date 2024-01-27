@@ -13,14 +13,12 @@ public class Lec02Main {
     return str.startsWith("A");
   }
 
-
   public Boolean startsWithA2(String str) {
     if (str == null) {
       return null;
     }
     return str.startsWith("A");
   }
-
 
   public boolean startsWithA3(String str) {
     if (str == null) {
