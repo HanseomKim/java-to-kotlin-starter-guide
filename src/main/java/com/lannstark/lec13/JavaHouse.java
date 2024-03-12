@@ -2,8 +2,8 @@ package com.lannstark.lec13;
 
 public class JavaHouse {
 
-  private String address;
-  private LivingRoom livingRoom;
+  private final String address;
+  private final LivingRoom livingRoom;
 
   public JavaHouse(String address) {
     this.address = address;
@@ -15,7 +15,8 @@ public class JavaHouse {
   }
 
   public class LivingRoom {
-    private double area;
+
+    private final double area;
 
     public LivingRoom(double area) {
       this.area = area;
